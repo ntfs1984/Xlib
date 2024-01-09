@@ -177,7 +177,7 @@ class XClient {
     const ButtonRelease = 5;
     const MotionNotify = 6;
     const EnterNotify = 7;
-    const eaveNotify = 8;
+    const LeaveNotify = 8;
     const FocusIn = 9;
     const FocusOut = 10;
     const KeymapNotify = 11;
@@ -205,9 +205,9 @@ class XClient {
     const ClientMessage = 33;
     const MappingNotify = 34;
     const GenericEvent = 35;
-    const ASTEvent = 36;
+    const LASTEvent = 36;
     const ShiftMask = 1;
-    const ockMask = 2;
+    const LockMask = 2;
     const ControlMask = 4;
     const Mod1Mask = 8;
     const Mod2Mask = 16;
@@ -215,7 +215,7 @@ class XClient {
     const Mod4Mask = 64;
     const Mod5Mask = 128;
     const ShiftMapIndex = 0;
-    const ockMapIndex = 1;
+    const LockMapIndex = 1;
     const ControlMapIndex = 2;
     const Mod1MapIndex = 3;
     const Mod2MapIndex = 4;
@@ -369,9 +369,9 @@ class XClient {
     const GXorInverted = 0xd;
     const GXnand = 0xe;
     const GXset = 0xf;
-    const ineSolid = 0;
-    const ineOnOffDash = 1;
-    const ineDoubleDash = 2;
+    const LineSolid = 0;
+    const LineOnOffDash = 1;
+    const LineDoubleDash = 2;
     const CapNotast = 0;
     const CapButt = 1;
     const CapRound = 2;
@@ -439,8 +439,8 @@ class XClient {
     const AutoRepeatModeOff = 0;
     const AutoRepeatModeOn = 1;
     const AutoRepeatModeDefault = 2;
-    const edModeOff = 0;
-    const edModeOn = 1;
+    const LedModeOff = 0;
+    const LedModeOn = 1;
     const KBKeyClickPercent = 1;
     const KBBellPercent = 2;
     const KBBellPitch = 4;
