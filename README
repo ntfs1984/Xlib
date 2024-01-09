@@ -1,1 +1,3 @@
 To use framework - simply include it to your script and start to work.
+
+If you will get error "Authorization required, but no authorization protocol specified" on your desktop - you should install tool "xhost" and run following command from current user in terminal: xhost + local:
