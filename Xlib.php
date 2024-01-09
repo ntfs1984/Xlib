@@ -349,7 +349,7 @@ class XClient {
     const BottomIf = 3;
     const Opposite = 4;
     const Raiseowest = 0;
-    const owerHighest = 1;
+    const LowerHighest = 1;
     const PropModeReplace = 0;
     const PropModePrepend = 1;
     const PropModeAppend = 2;
